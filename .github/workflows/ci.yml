@@ -10,4 +10,4 @@ jobs:
     runs-on: ${{matrix.runs-on}}
     steps:
     - name: Run lscpu
-    - run: lscpu
+      run: lscpu
