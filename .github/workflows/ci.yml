@@ -1,4 +1,4 @@
-name:  Display information about GitHub Actions CPU architecture  
+name:  Display information about GitHub Actions CPU architecture   
 on: push
 jobs:
   build:
