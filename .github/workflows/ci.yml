@@ -12,5 +12,6 @@ jobs:
     - name: Run lscpu
       run: lscpu
     - name: Run env
-      run: env && ls /opt/hostedtoolcache
+      run: env && ls /opt/hostedtoolcache && nvm --help
+      
     
