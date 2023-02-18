@@ -9,9 +9,6 @@ jobs:
     name: Display lscpu - ${{matrix.name}}
     runs-on: ${{matrix.runs-on}}
     steps:
-    - name: Run lscpu
-      run: lscpu
-    - name: Run env
-      run: env && ls /opt/hostedtoolcache && nvm --help
+    - run: nvm --help
       
     
