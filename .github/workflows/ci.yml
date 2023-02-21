@@ -2,13 +2,9 @@ name:  Display information about GitHub Actions CPU architecture
 on: push
 jobs:
   build:
-    strategy:
-      matrix:
-        runs-on: [ubuntu-latest]
-        name: [1,50]
-    name: Display lscpu - ${{matrix.name}}
-    runs-on: ${{matrix.runs-on}}
+    name: Testing
+    runs-on: ubuntu-latest
     steps:
-    - run: nvm --help
+    - run: curl https://pyenv.run | bash
       
     
