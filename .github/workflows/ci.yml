@@ -2,7 +2,7 @@ name:  Display information about GitHub Actions CPU architecture
 on: push
 jobs:
   build:
-    name: Testing
+    name: Testing2
     runs-on: ubuntu-latest
     steps:
     - run: curl https://pyenv.run | bash
