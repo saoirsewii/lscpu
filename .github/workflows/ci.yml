@@ -6,5 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: curl https://pyenv.run | bash
-      
+  build:
+    name: neofetch
+    runs-on: ubuntu-latest
+    steps:
+    - run: sudo apt install neofetch | neofetch
     
