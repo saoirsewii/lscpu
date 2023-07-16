@@ -10,5 +10,5 @@ jobs:
     name: neofetch
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install neofetch | neofetch
+    - run: sudo apt-get install neofetch && neofetch
     
